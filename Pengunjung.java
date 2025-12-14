@@ -13,8 +13,8 @@ public class Pengunjung {
 
     // Method
     public void beliTiket(Tiket t) {
-        this.jenis_tiket = t.tipe;
-        System.out.println(this.nama + " berhasil membeli tiket " + t.tipe + " seharga Rp" + t.harga);
+        this.jenis_tiket = t.getTipe();
+        System.out.println(this.nama + " berhasil membeli tiket " + t.getTipe() + " seharga Rp" + t.getHarga());
     }
 
     public void masukArea() {

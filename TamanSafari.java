@@ -1,34 +1,35 @@
 public class TamanSafari {
     public static void main(String[] args) {
-        System.out.println("=== TAMAN SAFARI BARU ===");
+        System.out.println("=== TAMAN SAFARI ===");
+        // Singa
+        Singa s1 = new Singa("Simba", 5);
+        
+        s1.setNama("King Simba");
+        System.out.println("Nama Hewan: " + s1.getNama());
 
-        // 1. Buat Hewan & Tiket
-        Hewan h1 = new Hewan("Simba", "Singa", 5, "Daging");
+        // Buat Tiket & Pengunjung
         Tiket t1 = new Tiket("Terusan", 150000);
-
-        // 2. Buat Pengunjung
         Pengunjung p1 = new Pengunjung("Andi", 20);
         
-        // 3. Proses Beli Tiket & Masuk
         t1.info();
         p1.beliTiket(t1);
         p1.masukArea();
 
         System.out.println("\n--- MULAI TUR ---");
         
-        // 4. Kendaraan Safari
+        // Kendaraan Safari
         KendaraanSafari mobil = new KendaraanSafari("B-1234-SAF", 6, "Pak Budi");
         mobil.mulaiTur();
         
-        // Interaksi Hewan di jalan
-        h1.suara();
-        h1.makan();
+        // Interaksi Hewan
+        s1.suara(); // Masih suara standar
+        s1.makan();
         
         mobil.berhenti();
 
         System.out.println("\n--- PERTUNJUKAN ---");
 
-        // 5. Pertunjukan
+        // 4. Pertunjukan
         Pertunjukan show = new Pertunjukan("Lumba-lumba Show", "10:00 WIB", "Kolam A");
         show.mulai();
         show.selesai();

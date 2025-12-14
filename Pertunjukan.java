@@ -13,8 +13,8 @@ public class Pertunjukan {
 
     // Method
     public void mulai() {
-        // Kita gabungkan nama pertunjukan dengan seruanmu tadi
-System.out.println("Jam " + this.jadwal + " di Area " + this.lokasi + ": " + this.nama + " - Pertunjukan dimulai! Selamat menyaksikan.");    }
+        System.out.println("Jam " + this.jadwal + " di Area " + this.lokasi + ": " + this.nama + " - Pertunjukan dimulai! Selamat menyaksikan.");
+        }
 
     public void selesai() {
         System.out.println(this.nama + " telah selesai. Terima kasih sudah menonton.");

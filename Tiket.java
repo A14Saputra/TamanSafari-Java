@@ -1,10 +1,19 @@
 public class Tiket {
-    String tipe;
-    int harga;
+    // Encapsulation
+    private String tipe;
+    private int harga;
 
     public Tiket(String tipe, int harga) {
         this.tipe = tipe;
         this.harga = harga;
+    }
+
+    public String getTipe() {
+        return this.tipe;
+    }
+
+    public int getHarga() {
+        return this.harga;
     }
 
     public void info() {
