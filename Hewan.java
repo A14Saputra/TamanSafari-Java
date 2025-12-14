@@ -1,9 +1,9 @@
 public class Hewan {
-    // Encapsulation
-    private String nama;
-    private String spesies;
-    private int umur;
-    private String makanan;
+    // Atribut sesuai diagram baru
+    String nama;
+    String spesies;
+    int umur;
+    String makanan;
 
     public Hewan(String nama, String spesies, int umur, String makanan) {
         this.nama = nama;
