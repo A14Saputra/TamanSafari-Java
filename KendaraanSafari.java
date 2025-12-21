@@ -1,19 +1,19 @@
 public class KendaraanSafari {
     // Atribut
+    String nama_kendaraan;
     String nomor_kendaraan;
     int kapasitas;
-    String sopir;
 
     // Constructor
-    public KendaraanSafari(String nomor, int kap, String namaSopir) {
+    public KendaraanSafari(String kendaraan, String nomor, int kap) {
+        this.nama_kendaraan = kendaraan;
         this.nomor_kendaraan = nomor;
         this.kapasitas = kap;
-        this.sopir = namaSopir;
     }
 
     // Method
     public void mulaiTur() {
-        System.out.println("Mobil " + this.nomor_kendaraan + " (Sopir: " + this.sopir + ") mulai berjalan. Harap tetap di dalam kendaraan.");
+        System.out.println("Mobil " + this.nama_kendaraan + " " + this.nomor_kendaraan + " mulai berjalan. Harap tetap di dalam kendaraan.");
     }
 
     public void berhenti() {

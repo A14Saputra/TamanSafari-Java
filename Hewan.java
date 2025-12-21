@@ -1,5 +1,5 @@
 public class Hewan {
-    // Atribut sesuai diagram baru
+    // Atribut sesuai diagram
     String nama;
     String spesies;
     int umur;

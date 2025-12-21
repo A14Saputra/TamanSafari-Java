@@ -1,14 +1,14 @@
 public class TamanSafari {
     public static void main(String[] args) {
         System.out.println("=== TAMAN SAFARI ===");
-        // Singa
+        // Hewan
         Singa s1 = new Singa("Simba", 5);
         
         s1.setNama("King Simba");
         System.out.println("Nama Hewan: " + s1.getNama());
-
+        
         // Buat Tiket & Pengunjung
-        Tiket t1 = new Tiket("Terusan", 150000);
+        Tiket t1 = new Tiket(0555, "Dewasa", 150000);
         Pengunjung p1 = new Pengunjung("Andi", 20);
         
         t1.info();
@@ -18,11 +18,11 @@ public class TamanSafari {
         System.out.println("\n--- MULAI TUR ---");
         
         // Kendaraan Safari
-        KendaraanSafari mobil = new KendaraanSafari("B-1234-SAF", 6, "Pak Budi");
+        KendaraanSafari mobil = new KendaraanSafari("Ferrari", "B-1234-SAF", 6 );
         mobil.mulaiTur();
         
         // Interaksi Hewan
-        s1.suara(); // Masih suara standar
+        s1.suara();
         s1.makan();
         
         mobil.berhenti();
