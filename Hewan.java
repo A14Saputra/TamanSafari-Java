@@ -1,9 +1,9 @@
-public class Hewan {
+public abstract class Hewan {
     // Atribut sesuai diagram
-    String nama;
-    String spesies;
-    int umur;
-    String makanan;
+    private String nama;
+    private String spesies;
+    private int umur;
+    private String makanan;
 
     public Hewan(String nama, String spesies, int umur, String makanan) {
         this.nama = nama;
@@ -16,9 +16,8 @@ public class Hewan {
         System.out.println(this.nama + " si " + this.spesies + " sedang memakan " + this.makanan);
     }
 
-    public void suara() {
-        System.out.println(this.nama + " mengeluarkan suara khasnya!");
-    }
+    // Method Abstract
+    public abstract void suara();
 
     // GETTER & SETTER
     

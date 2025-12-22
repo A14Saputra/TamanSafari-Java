@@ -17,6 +17,6 @@ public class KendaraanSafari {
     }
 
     public void berhenti() {
-        System.out.println("Mobil " + this.nomor_kendaraan + " berhenti. Silakan mengamati hewan.");
+        System.out.println("Mobil " + this.nama_kendaraan + " " + this.nomor_kendaraan + " berhenti. Silakan mengamati hewan.");
     }
 }
