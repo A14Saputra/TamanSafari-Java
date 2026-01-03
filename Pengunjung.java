@@ -2,13 +2,13 @@ public class Pengunjung {
     // Atribut
     String nama;
     int usia;
-    String jenis_tiket; // Menyimpan info tiket yang dibeli
+    String jenis_tiket;
 
     // Constructor
     public Pengunjung(String nama, int usia) {
         this.nama = nama;
         this.usia = usia;
-        this.jenis_tiket = "Belum Beli"; // Default awal
+        this.jenis_tiket = "Belum Beli";
     }
 
     // Method

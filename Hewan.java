@@ -20,7 +20,6 @@ public abstract class Hewan {
     public abstract void suara();
 
     // GETTER & SETTER
-    
     public String getNama() {
         return this.nama;
     }
