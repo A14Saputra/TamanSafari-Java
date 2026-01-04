@@ -1,5 +1,4 @@
 public abstract class Hewan {
-    // Atribut sesuai diagram
     private String nama;
     private String spesies;
     private int umur;
